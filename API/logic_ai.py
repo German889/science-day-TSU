@@ -15,7 +15,7 @@ OTG_support = ['yes','no']
 nfc_module = ['yes','no']
 separate_slot_for_second_SIM_card = ['yes','no']
 security_standard = ['IP68','IP67','IP00']
-df = pd.read_csv('C:\\Users\\Givermaen\\Documents\\workDirectory\\python\\science-day-TSU\\API\\phone_data.csv')
+df = pd.read_csv('phone_data.csv')
 
 #прочие переменные
 distances = {1:11.6878}
