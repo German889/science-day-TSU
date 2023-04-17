@@ -1,0 +1,11 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: API
+    src: API
+    engine: python3.9
+    primary: true
+    run: python -m uvicorn main:app --reload
+    public_routes:
+    - /*
+    - /device
