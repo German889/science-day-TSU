@@ -2,4 +2,3 @@ sklearn
 dtw-python
 numpy
 pandas
-json
