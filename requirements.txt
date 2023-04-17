@@ -3,3 +3,4 @@ dtw-python
 numpy
 pandas
 uvicorn
+fastapi
